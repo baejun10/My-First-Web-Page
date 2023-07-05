@@ -1,0 +1,75 @@
+* {
+    /* universal selector */
+    box-sizing: border-box; 
+    /* 기본 값을 borderbox 로 변경 */
+}
+h1 {
+    font-size: 50px;
+    font-family: 'Nanum Pen Script', cursive;
+}
+
+ul{
+    font-size: large;
+    color: blue;
+}
+
+div{
+    width: auto;
+    height: auto;
+    padding: 1cm;
+    margin: 20px, 20px;
+    border: 3px black;
+    border-style: double;
+    background-color: aliceblue;
+}
+div p{
+    /* div의 하위 태그 p */
+    color: brown;
+    overflow:auto;
+}
+div.float{
+    height: 400px;
+    width:auto;
+    border-style: solid;
+}
+
+
+div.float div{
+    float: left;
+    padding: auto;
+    width: 300px;
+    height: 300px;
+}
+
+
+div.left{
+    float: left;
+    height: 50%;
+    width: 300px;
+    background-color: pink;
+}
+div.second{
+    float: left;
+    height: 50%;
+    width: 300px;
+    background-color: aquamarine;
+}
+
+div.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.image{
+    max-width: 100%;
+}
+
+#test{
+    /* id 사용하여 selector */
+    width: 100px;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}

@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+h1{
+    font-size: 30px;
+}
+a:link, a:visited{
+    text-decoration: none;
+    color: #F4F3EA;
+}
+nav{
+    
+    height: 80px;
+    background-color: #535f77;
+    display: block;
+    line-height: 20px;
+}
+.container{
+    padding: 0 30px;
+    width: 100%;
+
+}
+.nav-menu{
+    float: right;
+    width: auto;
+}
+.nav-logo{
+    float: left;
+    font-family: 'Nanum Pen Script', cursive;
+    font-size: 50px;
+    color:  #F4F3EA;
+    margin: 30px 0;
+}
+.nav-btn{
+    display: flex;
+    width: auto;
+    font-size: 22px;
+    list-style-type: none;
+}
+
+.nav-btn>li{
+    margin: 0 30px;
+}
+
+
+/* header */
+.hd{
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    background-color: #333d51;
+}
+.hd-title{
+    margin: 0;
+    padding: 30px;
+    font-size: 40px;
+    color: rgb(216, 196, 171);
+}
+.hd-content{
+    color: #F4F3EA;
+}
+.sec{
+    text-align: center;
+    background-color: #333d51;
+    color: #F4F3EA;
+    height: 600px;
+}
+.sec h2{
+    margin-top: 0;
+}
+.ft{
+    margin: 0 0;
+    padding: 0 0;
+    height: auto;
+    background-color: #F4F3EA;
+}
+
+.container p{
+    margin: 0;
+    padding: 20px;
+}
+
+
+
+
+
+
+
